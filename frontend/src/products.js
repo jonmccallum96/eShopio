@@ -34,7 +34,7 @@ const products = [
     brand: 'Cannon',
     category: 'Electronics',
     price: 929.99,
-    countInStock: 5,
+    countInStock: 4,
     rating: 3,
     numReviews: 12,
   },
@@ -77,6 +77,6 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
-]
+];
 
-export default products
+export default products;
