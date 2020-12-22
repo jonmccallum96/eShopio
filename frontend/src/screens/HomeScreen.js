@@ -1,9 +1,14 @@
-import React from 'react';
-import products from '../products';
+import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Product from '../components/Product';
 
 const HomeScreen = () => {
+  const [products, setProducts] = React.useState([]);
+
+  useEffect(() => {
+    console.log('hello');
+  });
+
   return (
     <>
       <h1>Latest products</h1>
