@@ -1,0 +1,14 @@
+{
+  "name": "eshopio",
+  "version": "1.0.0",
+  "description": "MERN estore",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon McCallum",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

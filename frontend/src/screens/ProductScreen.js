@@ -27,7 +27,9 @@ const ProductScreen = ({ match }) => {
               ></Rating>
             </ListGroup.Item>
             <ListGroup.Item>Price: £{product.price}</ListGroup.Item>
-            <ListGroup.Item>Description: {product.description}</ListGroup.Item>
+            <ListGroup.Item>
+              <strong>Description:</strong> {product.description}
+            </ListGroup.Item>
           </ListGroup>
         </Col>
         <Col md={3}>
