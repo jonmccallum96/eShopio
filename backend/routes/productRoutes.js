@@ -1,7 +1,7 @@
 import express from 'express';
 import asyncHandler from 'express-async-handler';
 const router = express.Router();
-import Product from '../models/productModel';
+import Product from '../models/productModel.js';
 
 // @desc Fetches all of the products
 // @route GET /api/products
